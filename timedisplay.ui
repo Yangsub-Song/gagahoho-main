@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TimeDisplay</class>
+ <widget class="QWidget" name="TimeDisplay">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>420</height>
+   </rect>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #160C4B; border-style: solid; border-width: 0px; border-color: #160C4B;
+</string>
+  </property>
+  <widget class="QWidget" name="WidgetTimer" native="true">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>30</y>
+     <width>481</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <widget class="QLabel" name="LabelSec">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>100</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔바른고딕</family>
+      <pointsize>45</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>: 00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LabelHour">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>301</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔바른고딕</family>
+      <pointsize>65</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>12 : 00</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="LabelAMPM">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>나눔바른고딕</family>
+     <pointsize>24</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+	color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>AM</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>551</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="LabelYear">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔바른고딕</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>2020년</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LabelDate">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>10</y>
+      <width>261</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔바른고딕</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>12월 25일</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LabelDayofWeek">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>10</y>
+      <width>151</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔바른고딕</family>
+      <pointsize>40</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>금요일</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="WidgetLunar" native="true">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>310</y>
+     <width>511</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="LabelLunar">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>51</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔바른고딕</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>음</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LabelLunarDate">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>0</y>
+      <width>211</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔바른고딕</family>
+      <pointsize>35</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>11월 11일</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="LabelSpecialDay">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>10</y>
+      <width>121</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>나눔바른고딕</family>
+      <pointsize>20</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+	color: white;
+}</string>
+    </property>
+    <property name="text">
+     <string>크리스마스</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="LabelNotification">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>20</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>25</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color :#160C4B; color : white; border-style: solid; border-width: 0px; border-color: #160C4B;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
